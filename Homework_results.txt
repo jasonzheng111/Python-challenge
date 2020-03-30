@@ -1,0 +1,44 @@
+Last login: Sun Mar 29 20:44:35 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) HuiyingdeAir:~ huiyingzheng$ cd Desktop
+(base) HuiyingdeAir:Desktop huiyingzheng$ ls
+GT Databootcamp	PREWORK_JZ	迁移的项目
+(base) HuiyingdeAir:Desktop huiyingzheng$ cd GT\ Databootcamp/
+(base) HuiyingdeAir:GT Databootcamp huiyingzheng$ ls
+Python-Challenge		gt-atl-data-pt-03-2020-u-c	python-homework
+VBA-challenge			homeworks
+(base) HuiyingdeAir:GT Databootcamp huiyingzheng$ cd python-homework/
+(base) HuiyingdeAir:python-homework huiyingzheng$ ls
+Homework_results.txt	PyBank			PyPoll			Python_homework.ipynb	Python_homework.py
+(base) HuiyingdeAir:python-homework huiyingzheng$ python Python_homework.py
+Traceback (most recent call last):
+  File "Python_homework.py", line 10, in <module>
+    os.chdir('/Users/huiyingzheng/Desktop/GT Databootcamp/python-challenge/PyBank')
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/huiyingzheng/Desktop/GT Databootcamp/python-challenge/PyBank'
+(base) HuiyingdeAir:python-homework huiyingzheng$ python Python_homework.py
+Bankdata Header:['Date', 'Profit/Losses']
+Total Months: 86
+Total Months: 38382578
+Average Change: $-2315.12
+Greatest Increase in Profits: Feb-2012 ($1926159)
+Greatest Increase in Profits: Sep-2013 ($-2196167)
+Bankdata Header:['Voter ID', 'County', 'Candidate']
+------------------------------
+Total Votes: 3521001
+------------------------------
+Correy: 20.000% (704200)
+O'Tooley: 3.000% (105630)
+Khan: 63.000% (2218231)
+Li: 14.000% (492940)
+------------------------------
+Winner is: Khan
+------------------------------
+(base) HuiyingdeAir:python-homework huiyingzheng$ 
+
+
+
+
+
